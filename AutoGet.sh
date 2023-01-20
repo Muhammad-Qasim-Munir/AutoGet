@@ -13,12 +13,12 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Create tools directory if it doesn't exist
-if [ ! -d "/$user/tools" ]; then
-  mkdir "/$user/tools"
+if [ ! -d "~/tools" ]; then
+  mkdir "~/tools"
 fi
 
 # Change to tools directory
-cd "/$user/tools"
+cd "~/tools"
 
 echo -e "\e[93m[+] Installing Required Languages\e[0m"
 
